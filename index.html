@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Movie &amp; TV Show Database</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="ui middle aligned center aligned grid" style="margin-top: 60px;">
+        <div class="column">
+            <h2>Movie &amp; TV Show Database</h2>
+            <div class="ui icon input" style="margin-top: 60px;">
+                <input id="movietitle" type="text" placeholder="Star Wars">
+                <i class="inverted circular search film icon"></i>
+                <button id="search" class="ui grey basic button">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div id="myerror" class="ui middle aligned center aligned grid" style="margin-top: 60px;"></div>
+    <br>
+    <br>
+    <div id="content" class="ui container">
+        <div class="ui grid">
+            <div id="poster" class="eight wide column"></div>
+            <div id="movieData" class="eight wide column"></div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/main.js">
+</script>
+</html>

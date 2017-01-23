@@ -1,0 +1,33 @@
+.ui.segment {
+    text-align: center;
+    border: none;
+    box-shadow: none;
+}
+
+#movietitle {
+    width: 250px;
+}
+
+#movieData {
+    text-align: left;
+    margin-top: 40px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#poster {
+    text-align: center;
+}
+
+#search {
+    margin-left: 5px;
+}
+
+.ui.icon.input>i.circular.icon {
+    top: .3em;
+    right: 7em;
+}
+
+#content {
+    margin-top: 100px;
+}
